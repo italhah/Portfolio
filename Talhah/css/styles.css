@@ -3421,6 +3421,27 @@ img.u-pull-left {
     height: 80rem;
 }
 
+@media screen and (max-width: 800px) {
+    .about-info__pic {
+        object-fit     : cover;
+        margin         : 0;
+        vertical-align : bottom;
+        height: 25rem;
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .about-info__pic {
+        object-fit     : cover;
+        margin         : 0;
+        vertical-align : bottom;
+        height: 25rem;
+    }
+    
+}
+
+
 .about-info__text {
     padding     : var(--vspace-3_5) 10vw var(--vspace-2) 0;
     margin-left : -4rem;
@@ -3925,6 +3946,17 @@ img.u-pull-left {
     font-size: 14px;
     color: #666;
   }
+
+  @media screen and (max-width: 800px) {
+  .skills-slider__icon {
+    letter-spacing: 25px;
+    font-size: 2rem;
+    color: white; /* Adjust color based on branding */
+    margin-bottom: 10px;
+    --color-gray-12 : #101112;
+  }
+  }
+
   
   /* Swiper pagination styles */
   .swiper-pagination-bullet {
